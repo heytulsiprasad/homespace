@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-realestate",
-    "slug": "rn-realestate",
+    "name": "homescape",
+    "slug": "homescape",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,4 +39,3 @@
     }
   }
 }
- 
