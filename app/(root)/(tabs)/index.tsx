@@ -1,4 +1,5 @@
 import { Card, FeaturedCard } from "@/components/Cards";
+import Filters from "@/components/Filters";
 import Search from "@/components/Search";
 import icons from "@/constants/icons";
 import images from "@/constants/images";
@@ -57,7 +58,7 @@ const Index = () => {
           </View>
         </View>
 
-        {/* All cards section */}
+        {/* All cards heading */}
         <View className="my-5">
           <View className="flex flex-row items-center justify-between">
             <Text className="text-xl font-rubik-bold text-black-300">
@@ -70,7 +71,10 @@ const Index = () => {
             </TouchableOpacity>
           </View>
 
-          {/* Featured cards */}
+          {/* All cards filters */}
+          <Filters />
+
+          {/* All cards section*/}
           <View className="flex flex-row items-center justify-between gap-5 mt-5">
             <Card />
             <Card />
