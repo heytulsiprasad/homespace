@@ -51,7 +51,7 @@ const Index = () => {
     });
   }, [params.filter, params.query]);
 
-  const handleCardPress = (id: string) => router.push(`/property/${id}`);
+  const handleCardPress = (id: string) => router.push(`/properties/${id}`);
 
   console.log(JSON.stringify(properties, null, 2));
   console.log(JSON.stringify(latestProperties, null, 2));
