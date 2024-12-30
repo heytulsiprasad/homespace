@@ -73,7 +73,7 @@ export async function logout() {
 /**
  * Function to get user
  */
-export async function getUser() {
+export async function getCurrentUser() {
   try {
     const response = await account.get();
 
