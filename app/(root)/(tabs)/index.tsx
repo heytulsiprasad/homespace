@@ -10,19 +10,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className="text-3xl font-rubik-bold mb-6">Welcome to Relocate</Text>
-      <Link href="/sign-in">
-        <Text>Sign In</Text>
-      </Link>
-      <Link href="/explore">
-        <Text>Explore</Text>
-      </Link>
-      <Link href="/profile">
-        <Text>Profile</Text>
-      </Link>
-      <Link href="/properties/1">
-        <Text>Properties</Text>
-      </Link>
+      <Text className="text-4xl text-center font-rubik-bold mb-6">
+        Welcome to Relocate
+      </Text>
     </View>
   );
 }
